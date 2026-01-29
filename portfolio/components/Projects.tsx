@@ -32,6 +32,27 @@ const projects = [
         description: "High-performance FastAPI service reducing document prep time by 70%. A minimalist, abstract visualization of code scrolling into a document stack.",
         image: "/images/html_pdf_converter.png",
     },
+    {
+        id: 5,
+        title: "AI Powered Contract Management System",
+        category: "AI/ML",
+        description: "Intelligent contract analysis and automated approval workflows. Streamlines legal document processing with AI-driven insights and smart analysis.",
+        image: "/images/contract_management.png",
+    },
+    {
+        id: 6,
+        title: "Proposal Generator",
+        category: "AI Automation",
+        description: "Automated business proposal creation with intelligent text generation. Transforms templates into polished, professional proposals using advanced AI.",
+        image: "/images/proposal_generator.png",
+    },
+    {
+        id: 7,
+        title: "Robocall Agent",
+        category: "Voice AI",
+        description: "Intelligent voice assistant for automated calling with natural conversation flow. Advanced speech synthesis and recognition for seamless interactions.",
+        image: "/images/robocall_agent.png",
+    },
 ];
 
 const containerVariants = {

@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import {
     SiPython, SiPostgresql, SiTensorflow, SiLangchain,
-    SiN8N, SiGooglecloud, SiFastapi, SiSupabase, SiOpenai
+    SiN8N, SiGooglecloud, SiFastapi, SiSupabase, SiOpenai, SiReact
 } from "react-icons/si";
 import { LuBrainCircuit, LuWorkflow, LuDatabase, LuHeart } from "react-icons/lu";
 
@@ -26,7 +26,10 @@ const skills = {
         { name: "FastAPI", icon: SiFastapi },
         { name: "Pinecone", icon: LuDatabase }, // Generic DB for Pinecone
         { name: "Supabase", icon: SiSupabase },
-        { name: "Lovable", icon: LuHeart }
+        { name: "Lovable", icon: LuHeart },
+        { name: "Antigravity", icon: LuBrainCircuit },
+        { name: "React", icon: SiReact },
+        { name: "RESTful API", icon: LuWorkflow }
     ]
 };
 

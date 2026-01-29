@@ -1,6 +1,7 @@
 "use client";
 
 import { useScroll, useTransform, motion } from "framer-motion";
+import { HiDownload } from "react-icons/hi";
 
 export default function Overlay() {
     const { scrollYProgress } = useScroll();
@@ -29,9 +30,19 @@ export default function Overlay() {
                 <h1 className="text-6xl md:text-8xl font-bold tracking-tighter mb-4">
                     Sahil Sharma
                 </h1>
-                <p className="text-xl md:text-2xl font-light text-white/80">
+                <p className="text-xl md:text-2xl font-light text-white/80 mb-8">
                     AIML Engineer & Agentic Developer
                 </p>
+                <motion.a
+                    href="/sahi sharma resume 2026.pdf"
+                    download
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.95 }}
+                    className="pointer-events-auto flex items-center gap-2 px-6 py-3 bg-purple-600 hover:bg-purple-700 text-white rounded-full font-medium transition-colors shadow-lg hover:shadow-purple-500/50"
+                >
+                    <HiDownload className="text-xl" />
+                    Download Resume
+                </motion.a>
             </motion.div>
 
             {/* Section 2: Left Aligned */}
