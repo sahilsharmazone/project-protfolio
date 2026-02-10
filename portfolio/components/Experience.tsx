@@ -44,7 +44,10 @@ const certifications = [
     "Simplilearn - Langchain Course for beginners",
     "Simplilearn - Hugging Face Projects",
     "Simplilearn - Prompt Engineering with ChatGPT",
-    "Office Master – Excel and Power BI using AI"
+    "Office Master – Excel and Power BI using AI",
+    "Foundation: Introduction to LangChain -Python-LangChain",
+    "Building AI Agents with MongoDB",
+    "Building Ai Agents Using LangGraph"
 ];
 
 export default function Experience() {

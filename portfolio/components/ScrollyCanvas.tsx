@@ -108,6 +108,9 @@ export default function ScrollyCanvas() {
         <div className="sticky top-0 h-screen w-full bg-[#121212]">
             <canvas ref={canvasRef} className="block w-full h-full" />
 
+            {/* Vignette Overlay for seamless blending */}
+            <div className="absolute inset-0 pointer-events-none bg-[radial-gradient(circle_at_center,transparent_0%,#121212_100%)] opacity-80" />
+
             {/* Loading State Overlay */}
             <div
                 className={cn(
@@ -115,9 +118,12 @@ export default function ScrollyCanvas() {
                     loaded ? "opacity-0 pointer-events-none" : "opacity-100"
                 )}
             >
-                <span className="text-white/50 text-sm uppercase tracking-widest font-light animate-pulse">
-                    Loading Experience...
-                </span>
+                <div className="flex flex-col items-center gap-4">
+                    <span className="text-white/50 text-sm uppercase tracking-widest font-light animate-pulse">
+                        Loading Experience...
+                    </span>
+                    {/* Optional progress bar could go here */}
+                </div>
             </div>
         </div>
     );

@@ -4,6 +4,7 @@ import Projects from "@/components/Projects";
 import Footer from "@/components/Footer";
 import Skills from "@/components/Skills";
 import Experience from "@/components/Experience";
+import Feedback from "@/components/Feedback";
 
 export default function Home() {
     return (
@@ -24,6 +25,7 @@ export default function Home() {
 
             <Skills />
             <Experience />
+            <Feedback />
 
             <Footer />
         </main>
